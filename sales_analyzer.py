@@ -20,7 +20,7 @@ print(f'Total revenue for {num_day} days  is : {total_revenue}')
 
 #AVERAGE REVENUE
 average_revenue = np.mean(sales_array,axis = 1)
-print(f'Average revenue is {average_revenue}')
+print(f'Average revenue is {average_revenue:.2f}')
 
 # DAILY AVERAGE REVENUE//
 daily_revenue = np.sum(sales_array,axis = 1)
